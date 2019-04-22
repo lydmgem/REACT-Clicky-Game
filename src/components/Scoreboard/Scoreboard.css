@@ -1,0 +1,18 @@
+nav {
+    font-size: 30px;
+    padding: 20px;
+    background-color: #7dbeda;
+    color: white;
+  }
+
+  .title {
+    float: left;
+  }
+  
+  .header {
+    float: left;
+    margin-left: 30%;
+  }
+  .score {
+    float: right;
+  }

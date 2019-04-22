@@ -1,0 +1,13 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+#root {
+  background-color: #7dbeda;
+}
