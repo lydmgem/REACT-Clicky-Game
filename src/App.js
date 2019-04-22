@@ -78,7 +78,6 @@ class App extends React.Component {
         </Scoreboard>
         <Jumbotron />
 
-        <p className="small-detail">Click on a character to start, but be careful not to choose the same one!</p>
         <div className="container">
           {
             this.state.characters.map((characters, index) => (

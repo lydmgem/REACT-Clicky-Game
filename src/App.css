@@ -8,11 +8,6 @@
   align-content: flex-start;
 }
 
-.small-detail {
-  font-size: 40px;
-  text-align: center;
-}
-
 #root {
   background-color: #7dbeda;
 }
