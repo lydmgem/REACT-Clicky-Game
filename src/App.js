@@ -51,7 +51,7 @@ class App extends React.Component {
                 topScore: this.state.topScore + 1,
               });
             }
-        } if (this.state.score === 11){
+        } else if (this.state.score === 11){
 
           const clear = this.state.characters.map(element => {
             return {...element, clicked: false}
@@ -72,12 +72,13 @@ class App extends React.Component {
       <React.Fragment>
         <Scoreboard
         score={this.state.score}
-        topscore={this.state.topScore}
+        topScore={this.state.topScore}
         msg={this.state.msg}>
         Clicky Game
         </Scoreboard>
         <Jumbotron />
 
+        <p className="small-detail">Click on a character to start, but be careful not to choose the same one!</p>
         <div className="container">
           {
             this.state.characters.map((characters, index) => (
